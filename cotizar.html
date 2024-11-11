@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=egde">
+  <link rel="stylesheet" href="style.css">
+  <title>KTM Cotizar</title>
+  <link rel="shortcut icon" href="images/ktm borde blanco.webp" type="image/x-icon">
+  <!-- CDN de Font Awesome para los íconos -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <header>
+  </header>
+
+  <section id="registro">
+    <div class="registro-container">
+      <div class="registro-info">
+        <h2>EL PRIMER PASO <br> ¡EMPIEZA AHORA!</h2>
+        <p>Regístrate para brindarte más información.</p>
+      </div>
+
+      <form action="#" class="registro-form">
+        <div class="input-group">
+          <input type="text" placeholder="Nombres*" required>
+          <input type="text" placeholder="Apellido Paterno*" required>
+        </div>
+        <div class="input-group">
+          <input type="text" placeholder="Apellido Materno*" required>
+          <input type="tel" placeholder="Teléfono*" required>
+        </div>
+        <div class="input-group">
+          <select required>
+            <option value="" disabled selected>Tipo de documento*</option>
+            <option value="masculino">DNI</option>
+            <option value="femenino">Carnét de extrajería</option>
+          </select>
+          <input type="text" placeholder="Documento de identidad*" required>
+        </div>
+ 
+        <div class="input-group">
+          <input type="email" placeholder="Correo electrónico*" required>
+          <select required>
+            <option value="" disabled selected>Género*</option>
+            <option value="masculino">Masculino</option>
+            <option value="femenino">Femenino</option>
+          </select>
+        </div>
+
+        <div class="input-group">
+          <select required>
+            <option value="" disabled selected>Objetivo compra*</option>
+            <option value="masculino">Vivienda</option>
+            <option value="femenino">Inversión</option>
+          </select>
+          <select required>
+            <option value="" disabled selected>Selecciona un proyecto*</option>
+            <option value="proyecto1">Costa Beach</option>
+            <option value="proyecto2">Proyecto 2</option>
+            <option value="proyecto2">Proyecto 3</option>
+            <option value="proyecto2">Proyecto 4</option>
+            <option value="proyecto2">Proyecto 5</option>
+          </select>
+        </div>
+        <textarea placeholder="Déjanos un mensaje*" required cols="30" rows="4"></textarea>
+        <div class="checkbox-group">
+          <label>
+            <input type="checkbox" required> He leído y acepto los <a href="#">Términos y condiciones.</a>
+          </label>
+          <label>
+            <input type="checkbox" required> He leído y acepto el <a href="#">Tratamiento de mis datos personales.</a>
+          </label>
+          <label>
+            <input type="checkbox"> Acepto recibir información comercial.
+          </label>
+        </div>
+        <button class="btn-enviar" type="submit">Enviar</button>
+      </form>
+    </div>
+  </section>
+
+
+
+
+
+
+  <!-- FOOTER -->
+  <footer>
+  </footer>
+
+  <div>
+    <a href="https://api.whatsapp.com/send/?phone=51907994032&text=Me%20gustar%C3%ADa%20recibir%20m%C3%A1s%20informaci%C3%B3n"
+      class="whatsapp-button" target="_blank">
+      <img src="Iconos/whatsapp.png" alt="WhatsApp" />
+    </a>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
